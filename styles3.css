@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+/* <------------------------------------------EMPIEZA INDEX ---------------------------------------------------> */
+
+main{
+    font-family: 'Roboto', sans-serif;
+    min-height: 85vh;
+    background-image: url(./recursos/canchahockey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #efb810;
+    font-size: 55px;
+}
+
+h2 {
+    color: #efb810;
+    font-size: 35px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+h3 {
+    color: #efb810;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.Indexcolor {
+    background-color: #efb810;
+    color: white;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+nav a {
+    color: #efb810;
+    background-color: red;
+    border: 3px #efb810 solid;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+
+.Logodelapagina {
+    width: 100px;
+}
+
+.imguno{
+    width: 500px;
+}
+
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divIndex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+
+.Parrafounofooter{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: #efb810;
+}
+
+.Divdefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divparrafosindex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* <------------------------------------------EMPIEZA ABOUT ---------------------------------------------------> */
+
+.aboutcolor{
+    background-color: #efb810;
+    color: white;
+}
+
+.logouno {
+    width: 100px;
+}
+
+.imgdos{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #efb810  ;
+    object-fit: cover;
+    object-position: 100% 0%;
+    width: 400px;
+}
+
+.mainAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divAbout {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+
+.divparrafosAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* <------------------------------------------EMPIEZA CONTACT ---------------------------------------------------> */
+
+.imgtres {
+    width: 400px;
+}
+
+.contactcolor{
+    background-color: #efb810;
+    color: white;
+}
+
+.MainContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.DivContact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+
+.Divparrafoscontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* <------------------------------------------EMPIEZA RULES ---------------------------------------------------> */
+
+.Mainrules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rulescolor {
+    background-color: #efb810;
+    color: white;
+}
+
+.SubtituloyparrafoRules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Inforules {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.Primeritem {
+    font-weight: bold;
+}
+
+.Segundoitem {
+    font-weight: bold;
+}
+
+.Terceritem{
+    font-weight: bold;
+}
+
+.Parrafosparaponerconletra {
+    list-style-type:lower-latin;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ul {
+list-style-type: circle;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+.Finaldelainfo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.Segundapartedeinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.Finaldelainfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* <------------------------------------------EMPIEZA INFORMATION ---------------------------------------------------> */
+
+h2 {
+    width: 100%;
+}
+
+.Informationcolor{
+    background-color: #efb810;
+    color: white;
+}
+
+.SubtituloInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulosgameinfo p {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.subtitulosgameinfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 16px;
+    flex-wrap: wrap;
+}
+
+.Informationmain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+table{
+    margin-top: 20px; 
+    width: 50%;
+    background-color: red;
+    color: white;
+}
+
+td {
+
+    padding: 16px;
+}
+
+th {
+    font-size: 25px;
+    padding-left: 13px;
+}
+
+
+.parrafosinfo {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+}
+
+.Infofinalsobreinfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Infofinalsobreinfo p {
+    margin: 5px;
+    padding: 10px;
+}
+
+iframe {
+    width: 200px;
+    height: 100px;
+}
+
+iframe:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.NegritaRegistration {
+    font-weight: bold;
+}
+
+/* <------------------------------------------EMPIEZA REGISTRATION ---------------------------------------------------> */
+
+
+.Registrationformulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: red;
+    background-size: cover;
+    color: white;
+    width: 70%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+}
+
+.FirstName  {
+    width: 50%;
+    height: 50%;
+    margin: 16px;
+}
+
+.LastName {
+    width: 50%;
+    height: 50%;
+    margin-right: 16px;
+}
+
+.StreetAdress {
+    width: 100%;
+    height: 100%;
+    margin-left: 16px;
+}
+
+.StreetAdress input {
+    margin-left: 35px; 
+    width: 70%;
+}
+.city {
+    width: 50%;
+    height: 50%;
+    margin: 16px;
+}
+
+.zipcode{
+    width: 50%;
+    height: 50%;
+    margin-right: 16px;
+}
+
+.birthday {
+    width: 50%;
+    height: 50%;
+    margin: 16px;
+}
+
+.NegritaRegistration{
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.BotonRegistration{
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.registrationcolor{
+    background-color: #efb810;
+    color: white;
+}
